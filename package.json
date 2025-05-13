@@ -25,6 +25,7 @@
     "@capacitor/network": "^7.0.1",
     "@capacitor/splash-screen": "^7.0.1",
     "@capacitor/status-bar": "^7.0.1",
+    "@capacitor/toast": "^7.0.1",
     "@capawesome/capacitor-android-dark-mode-support": "^7.0.0",
     "@capawesome/capacitor-android-edge-to-edge-support": "^7.1.1",
     "autoprefixer": "^10.4.20",
