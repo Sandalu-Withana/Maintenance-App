@@ -1,6 +1,5 @@
 import { AlertTriangle, ArrowLeft, ChevronDown } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Toast } from '@capacitor/toast';
 import { useI18n } from '../../i18n';
 import { AirportMap } from '../equipmentSearch/components/AirportMap';
 import { useEffect, useState } from 'react';
@@ -37,6 +36,9 @@ function TaskDetailsPage() {
 
   // TODO: Show error message
   // TODO: When changing status, disable previous statuses since we can't change them back
+  useEffect(() => {
+    console.error(error);
+  }, [error]);
 
   const fetchTask = async () => {
     try {
